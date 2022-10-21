@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/31a5b25862.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="shorcut icon" href="" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Megadeth</title>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="container-navegador">
+          <div class="contenedor-elementos"> 
+            <div class="contenedor-logo">
+            <a href="./index.html"><img src="../img/logo.png"></a>
+            </div>
+            <div class="contenedor-lista-nav">
+              <div class="contenedor-palabra-menu">
+                <label for="btn-menu" class="palabra-menu">MENU</label>
+                <input type="checkbox" id="btn-menu">
+                <div id="containermenu" class="container-menu">
+                  <div class="contenedor-logo"><img src="../img/logo.png"></div>
+                  <div class="cont-menu">
+                    <nav>
+                      <a href="#">NEWS</a>
+                      <a href="#">BAND</a>
+                      <a href="#">TOUR</a>
+                      <a href="#">MEDIA</a>
+                      <a href="#">DISCOGRAPHY</a>
+                      <a href="#">CYBER ARMY</a>
+                      <a href="#">STORE</a>
+                      <a href="#">DISCORD</a>
+                      <a href="#">CONTESTS</a>
+                      <a href="#">ACTIONS</a>
+                    </nav>
+                    <label for="btn-menu"><i class="fa-solid fa-x"></i></label>
+                  </div>
+                </div>
+              </div>
+              <ul>
+                <a href="#"><li>NEWS</li></a>
+                <a href="#"><li>BAND</li></a>
+                <a href="#"><li>TOUR</li></a>
+                <a href="#"><li>MEDIA</li></a>
+                <a href="#"><li>DISCOGRAPHY</li></a>
+                <a href="#"><li>CYBER ARMY</li></a>
+                <a href="#"><li>STORE</li></a>
+                <a href="#"><li>DISCORD</li></a>
+                <a href="#"><li>CONTESTS</li></a>
+                <a href="#"><li>AUCTIONS</li></a>
+              </ul>
+            </div>
+            <div class="contenedor-login-sign">
+              <button id="btnlogin"><h5 class="login">Log In</h5></button>
+              <h5 class="barra"> / </h5>
+              <button id="btnsign"><h5 class="sign">Sign Up</h5></button>
+            </div>
+          </div>
+        </div>
+      </nav>
+</header>
+<!-- Log in - Sign up desktop -->
+<main>
+  <div id="contenedorlogin" class="contenedor-login">
+    <div id="contenedormodal" class="contenedor-formulario-login"> 
+      <div id="modallogin" class="cuadrado-formulario">
+        <div class="contenedor-cruz">
+          <div class="contenedor-icono-cruz-login">
+            <button id="botonSalirFormulario"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+        <div class="contenedor-logo">
+          <div class="contenedor-img-logo-form">
+            <img src="../img/logo.png">
+          </div>
+        </div>
+        <div class="contenedor-titulo-login">
+          <h3>LOG IN TO YOUR ACCOUNT</h3>
+        </div>
+        <div class="contenedor-input-mail-login">
+          <label for="mail-login">Email address or username</label>
+          <input id="mail-login" type="text" name="user_login" class="form-control" required="" placeholder="email@address.com">
+        </div>
+        <div class="contenedor-input-mail-login2">
+          <label for="password-login">Password</label>
+          <input id="password-login" type="password" name="user_login" class="form-control" required="" placeholder="password">
+        </div>
+        <div class="contenedor-boton-login">
+          <div class="contenedor-cuadrado-check">
+            <button id="checkcuadrado"><div class="cuadrado-check"><div id="rellenoCuadrado" class="relleno"></div></div></button>
+            <button id="recuerdamecuadrado"><h6>Remember  Me</h6></button>
+          </div>
+          <div class="contenedor-btn-login">
+            <div class="btn-login"><h5>LOG IN</h5></div>
+          </div>
+        </div>
+        <div class="contenedor-forgot">
+          <div class="linea-arriba">
+            <h6>Not a member? Register</h6>
+            <h6>Forgot Password?</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contenedorsign" class="contenedor-sign">
+    <div id="contenedormodalsign" class="contenedor-formulario-sign"> 
+      <div id="modalSign" class="cuadrado-formulario">
+        <div class="contenedor-cruz">
+          <div class="contenedor-icono-cruz-login">
+            <button id="salirSign"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+        <div class="contenedor-logo">
+          <div class="contenedor-img-logo-form">
+            <img src="../img/logo.png">
+          </div>
+        </div>
+        <div class="contenedor-titulo-login">
+          <h3>REGISTER</h3>
+        </div>
+        <form id="formulario">
+          <div class="contenedor-names">
+              <div class="contenedor-first-name">
+                <label for="firstname">First Name</label><i id="cruzerrorfirstname" class="fa-regular fa-circle-xmark cruz-errorfirstname"></i>
+                <input id="firstname" type="text" name="user_firstname" class="form-control" required="">
+                <label id="errorfirstname" class="error-firstname">First name cannot have numbers</label>
+              </div>
+              <div class="contenedor-last-name">
+                <label for="last-name">Last Name</label><i id="cruzerrorlastname" class="fa-regular fa-circle-xmark cruz-errorlastname"></i>
+                <input id="lastname" type="text" name="user_lastname" class="form-control" required="">
+                <label id="errorlastname" class="error-lastname">Last name cannot have numbers</label>
+              </div>
+          </div>
+          <div class="contenedor-mail">
+            <div id="contenedorinput" class="contenedor-input">
+              <label id="labelmailsign" for="mailsign">Email address</label><i id="cruzerrormail" class="fa-regular fa-circle-xmark cruz-error"></i>
+              <input id="mailsign" type="email" name="correo" class="form-control" required="" placeholder="email@address.com">
+              <label id="errorcorreo" class="error-correo">Email already exist</label>
+            </div>
+          </div>
+          <div class="contenedor-names">
+            <div id="contenedorusername" class="contenedor-first-name">
+              <label id="labelusername" for="username">Username</label><i id="cruzerroruser" class="fa-regular fa-circle-xmark cruz-error"></i>
+              <input id="username" type="text" name="username" class="form-control" required="">
+              <label id="erroruser" class="error-user">Username already exist</label>
+            </div>
+            <div class="contenedor-last-name">
+              <label for="password">Password</label><i id="cruzerrorpassword" class="fa-regular fa-circle-xmark cruz-error"></i>
+              <input id="password" type="password" name="contrasenia" class="form-control" required="">
+              <label id="errorpassword" class="error-password">Min 6 characters and at least 1 number</label>
+            </div>
+          </div>
+          <div class="contenedor-btn-joinfree">
+            <button id="btnfree"><div class="btn-joinfree"><h5>JOIN FOR FREE</h5></div></button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+    <div id="megadeth-home">
+        <div class="contenedor-boton-findhere">
+          <a href="./pages/thesick.html"></a>
+        </div>
+    </div>
+    <section>
+      <article>
+        <div id="articulo" class="contenedor-articulo">
+          <div class="contenedor-carrusel">
+            <div class="carrusel-mobile">
+              <div id="carouselExampleInterval" class="carousel slide carrousel-modificado-mobile" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active carrousel-item-modificado-mobile">
+                    <div class="contenedor-dos-cosas-mobile">
+                      <div class="contenedor-carrousel-imagen-primera">
+                        <img src="./img/portada-disco.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="contenedor-titulo-carrousel-mobile">
+                          <h2>‘THE SICK, THE DYING… AND THE DEAD!’ AVAILABLE NOW</h2>
+                        <div class="contenedor-parrafo-carrousel-mobile">
+                          <div class="contenedor-parrafo-mobile">
+                            <p>Our new album THE SICK, THE DYING... AND THE DEAD! is available now worldwide. Experience it for the first time <a class="enlace-sick" href="./pages/thesick.html">The Sick, The Dying.. and the Dead</a></p>
+                          </div>
+                          <div class="contenedor-readmore-mobile">
+                            <a href="./pages/thesick.html"><div class="boton-readmore"><h5>Read More</h5></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carrousel-item-modificado-mobile">
+                    <div class="contenedor-dos-cosas-mobile">
+                      <div class="contenedor-carrousel-imagen-mobile-primera">
+                        <img src="./img/carrousel/cuarta-carrousel.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="contenedor-titulo-carrousel-mobile">
+                        <h2>SUMMER 2022 STAGE-PLAYED GUITAR AUCTION</h2>
+                        <div class="contenedor-parrafo-carrousel-mobile">
+                          <div class="contenedor-parrafo-mobile">
+                            <p>Reminder - there’s still time. Each night on this summer’s US tour, Dave Mustaine will be signing and auctioning off a stage-played Silver Metallic or Antique Natural Flying V EXP guitar from his Gibson guitar signature series. <a class="enlace-sick" href="https://auction.megadeth.com/">Auction Megadeth</a></p>
+                          </div>
+                          <div class="contenedor-readmore-mobile">
+                            <a href="https://megadeth.com/news/2022/dave-mustaine-stage-played-guitar-auction-2/"><div class="boton-readmore"><h5>Read More</h5></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carrousel-item-modificado-mobile">
+                    <div class="contenedor-dos-cosas-mobile">
+                      <div class="contenedor-carrousel-imagen-mobile-primera">
+                        <img src="./img/carrousel/ultima.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="contenedor-titulo-carrousel-mobile">
+                        <h2>‘RUST IN PEACE’ RELEASED 32 YEARS AGO TODAY!</h2>
+                        <div class="contenedor-parrafo-carrousel-mobile">
+                          <div class="contenedor-parrafo-mobile">
+                            <p>On September 24, 1990, our 4th studio album Rust in Peace was released! The album is held in high regard in the metal community as one of the best thrash metal albums of all time. Listen to it here: <a class="enlace-sick" href="https://megadeth.lnk.to/rip">megadeth.lnk.to/rip</a></p>
+                          </div>
+                          <div class="contenedor-readmore-mobile">
+                            <a href="https://megadeth.com/news/2022/rust-in-peace-released-32-years-ago-today/"><div class="boton-readmore"><h5>Read More</h5></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="carrusel">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner carrousel-modificado">
+                  <div class="carousel-item active carrousel-item-modificado">
+                    <div class="contenedor-dos-cosas">
+                      <div class="contenedor-carrousel-imagen">
+                        <img src="./img/portada-disco.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="contenedor-titulo-carrousel">
+                          <h2>‘THE SICK, THE DYING… AND THE DEAD!’ AVAILABLE NOW</h2>
+                        <div class="contenedor-parrafo-carrousel">
+                          <div class="contenedor-parrafo">
+                            <p>Our new album THE SICK, THE DYING... AND THE DEAD! is available now worldwide. Experience it for the first time <a class="enlace-sick" href="./pages/thesick.html">The Sick, The Dying.. and the Dead</a></p>
+                          </div>
+                          <div class="contenedor-readmore">
+                            <a href="#"><div class="boton-readmore"><h5>Read More</h5></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carrousel-item-modificado">
+                    <div class="contenedor-dos-cosas">
+                      <div class="contenedor-carrousel-imagen">
+                        <img src="./img/carrousel/segunda-carrousel.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="contenedor-titulo-carrousel">
+                        <h2>THE SICK, THE DYING.. AND THE DEAD! OCEAN BLUE AND GREEN 2LP VINYL GIVEAWAY</h2>
+                        <div class="contenedor-parrafo-carrousel">
+                          <div class="contenedor-parrafo">
+                            <p>Four (4) winners will each receive one (1) SIGNED copy of Megadeth's The Sick, The Dying… And The Dead! limited edition Ocean Blue & Translucent Green Vinyl 2LP set. <a class="enlace-sick" href="https://megadeth.com/news/2022/the-sick-the-dying-and-the-dead-ocean-blue-and-green-2lp-vinyl-giveaway/">ENTER NOW</a></p>
+                          </div>
+                          <div class="contenedor-readmore">
+                            <a href="#"><div class="boton-readmore"><h5>Read More</h5></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carrousel-item-modificado">
+                    <div class="contenedor-dos-cosas">
+                      <div class="contenedor-carrousel-imagen">
+                        <img src="./img/carrousel/cuarta-carrousel.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="contenedor-titulo-carrousel">
+                        <h2>SUMMER 2022 STAGE-PLAYED GUITAR AUCTION</h2>
+                        <div class="contenedor-parrafo-carrousel">
+                          <div class="contenedor-parrafo">
+                            <p>Reminder - there’s still time. Each night on this summer’s US tour, Dave Mustaine will be signing and auctioning off a stage-played Silver Metallic or Antique Natural Flying V EXP guitar from his Gibson guitar signature series. <a class="enlace-sick" href="https://auction.megadeth.com/">Auction Megadeth</a></p>
+                          </div>
+                          <div class="contenedor-readmore">
+                            <a href="#"><div class="boton-readmore"><h5>Read More</h5></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item carrousel-item-modificado">
+                    <div class="contenedor-dos-cosas">
+                      <div class="contenedor-carrousel-imagen">
+                        <img src="./img/carrousel/ultima.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="contenedor-titulo-carrousel">
+                        <h2>‘RUST IN PEACE’ RELEASED 32 YEARS AGO TODAY!</h2>
+                        <div class="contenedor-parrafo-carrousel">
+                          <div class="contenedor-parrafo">
+                            <p>On September 24, 1990, our 4th studio album Rust in Peace was released! The album is held in high regard in the metal community as one of the best thrash metal albums of all time. Listen to it here: <a class="enlace-sick" href="https://megadeth.lnk.to/rip">megadeth.lnk.to/rip</a></p>
+                          </div>
+                          <div class="contenedor-readmore">
+                            <a href="#"><div class="boton-readmore"><h5>Read More</h5></div></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev contenedor-boton" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon boton" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next contenedor-boton" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon boton" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--Desktop-->
+          <div class="contenedor-latestnews-desktop">
+            <div class="contenedor-titulolatest-desktop">
+              <h2>LATEST NEWS</h2>
+              <div class="barra-marron-desktop"></div>
+            </div>
+            <div class="contenedor-cards-desktop">
+              <div class="alineador-cards-desktop">
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img src="./img/cards-index/primera-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop">
+                    <h6>09.29.22</h6>
+                    <h3>DAVE MUSTAINE INTERVIEWED BY VWMUSIC</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop">
+                    <p>"Leave it to metal’s ultimate thrasher, Dave Mustaine.</p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img class="ultima-img-carrusel" src="./img/carrousel/ultima.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop rust-desktop">
+                    <h6>09.24.22</h6>
+                    <h3>‘RUST IN PEACE’ RELEASED 32 YEARS AGO TODAY!</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop parrafo-rust-desktop">
+                    <p>On September 24, 1990, our 4th studio album Rust in Peace was released!</p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img src="./img/cards-index/segunda-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop dirk-desktop">
+                    <h6>09.22.22</h6>
+                    <h3>DIRK VERBEUREN INTERVIEWED BY VWMUSIC</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop parrafo-dirk-desktop">
+                    <p>Dirk's latest interview with VWMusic about Megadeth's new album.</p></a>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img class="showtoday" src="./img/cards-index/tercera-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop titulo-daveshow-desktop">
+                    <h6>09.22.22</h6>
+                    <h3>THE DAVE MUSTAINE SHOW TODAY!</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop parrafo-dave-desktop">
+                    <p>Dave Mustaine is back and ready to chat!</a></p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img src="./img/cards-index/cuarta-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop titulo-davegibson-desktop">
+                    <h6>09.21.22</h6>
+                    <h3>DAVE MUSTAINE - GIBSON GUITARS</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop parrafo-davegibson-desktop">
+                    <p>Dave Mustaine checking to make sure his guitar tech.</a></p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img src="./img/cards-index/quinta-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop titulo-mustaine-auction-desktop">
+                    <h6>09.19.22</h6>
+                    <h3>DAVE MUSTAINE STAGE-PLAYED GUITAR AUCTION</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop parrafo-mustaine-auction-desktop">
+                    <p>Own a piece of guitar history! Each night on the current US tour</a> </p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img src="./img/cards-index/sexta-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop">
+                    <h6>09.16.22</h6>
+                    <h3>DAVE MUSTAINE WITH GIBSON GUITARS</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop">
+                    <p>Dave Mustaine joins <a class="enlace-sick" href="https://sprout.link/sweetwatersound">Sweetwater’s </a> Nick Bowcott to talk about Megadeth.</a></p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img src="./img/cards-index/septima-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop titulo-tst-desktop">
+                    <h6>09.13.22</h6>
+                    <h3>HIGHEST CHARTING MEGADETH ALBUM</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop parrafo-mustaine-tst-desktop">
+                    <p>THANK YOU ALL for making The Sick, The Dying… And The Dead! our highest charting album of all time!</p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="#"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+                <div class="card-desktop">
+                  <div class="imagen-card-desktop">
+                    <img src="./img/cards-index/octava-card.jpg">
+                  </div>
+                  <div class="contenedor-titulo-card-desktop titulo-nft-desktop">
+                    <h6>09.13.22</h6>
+                    <h3>THE NEW RATTLEHEAD NFTS HERE!</h3>
+                  </div>
+                  <div class="contenedor-parrafo-card-desktop parrafo-nft-desktop">
+                    <p>RATTLEHEADS... Here We Come. 💀 Follow <a class="enlace-sick" href="https://www.instagram.com/RattleheadsNFT/">@RattleheadsNFT</a>🔄 Retweet + Like ❤️🔔.</p>
+                  </div>
+                  <div class="contenedor-readmore-card-desktop">
+                    <a href="https://megadeth.com/news/2022/rattleheads-nft/"><div class="boton-readmore-desktop">READ MORE</div></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-boton-allnews-desktop">
+              <div class="boton-readmore-desktop"><h5>ALL NEWS</h5></div>
+            </div>
+          </div>
+          <div class="contenedor-killingroad-desktop">
+            <div class="contenedor-titulo-killing-desktop">
+              <h2>KILLING ROAD</h2>
+              <div class="barra-marron-desktop"></div>
+            </div>
+            <div class="contenido-killing-desktop">
+              <div class="card-killing-desktop">
+                <div class="contenedor-fecha">
+                  <h6>10/04/2022</h6>
+                </div>
+                <div class="contenedor-titulo">
+                  <h3>
+                    US Tour w/ 5FDP
+                    Detroit, MI
+                  </h3>
+                </div>
+                <div class="contenedor-subtitulo">
+                  <h4>Pine Knob Music Theatre</h4>
+                  <div class="contenedor-readmore-card-mobile">
+                    <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-killing-desktop">
+                <div class="contenedor-fecha">
+                  <h6>10/04/2022</h6>
+                </div>
+                <div class="contenedor-titulo">
+                  <h3>
+                    US Tour w/ 5FDP
+                    Milwaukee, WI
+                  </h3>
+                </div>
+                <div class="contenedor-subtitulo">
+                  <h4>American Family Insurance Amphitheater</h4>
+                  <div class="contenedor-readmore-card-mobile">
+                    <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-killing-desktop">
+                <div class="contenedor-fecha">
+                  <h6>10/04/2022</h6>
+                </div>
+                <div class="contenedor-titulo">
+                  <h3>
+                    US Tour w/ 5FDP
+                    Maryland Heights, MO
+                  </h3>
+                </div>
+                <div class="contenedor-subtitulo">
+                  <h4>Hollywood Casino Amphitheatre - St. Louis</h4>
+                  <div class="contenedor-readmore-card-mobile">
+                    <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-killing-desktop">
+                <div class="contenedor-fecha">
+                  <h6>10/04/2022</h6>
+                </div>
+                <div class="contenedor-titulo">
+                  <h3>
+                    US Tour w/ 5FDP
+                    Alpharetta, GA
+                  </h3>
+                </div>
+                <div class="contenedor-subtitulo">
+                  <h4>Ameris Bank Amphitheatre</h4>
+                  <div class="contenedor-readmore-card-mobile">
+                    <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-killing-desktop">
+                <div class="contenedor-fecha">
+                  <h6>10/04/2022</h6>
+                </div>
+                <div class="contenedor-titulo">
+                  <h3>
+                    US Tour w/ 5FDP
+                    Rogers, AR
+                  </h3>
+                </div>
+                <div class="contenedor-subtitulo">
+                  <h4>Walmart AMP</h4>
+                  <div class="contenedor-readmore-card-mobile">
+                    <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-alldates-desktop">
+                <div class="contenedor-readmore-card-mobile">
+                  <div class="boton-readmore-mobile">ALL DATES</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-joinarmy-desktop">
+            <h3>JOIN THE CYBER ARMY</h3>
+            <p>Welcome to the Megadeth Cyber Army, Megadeth's official fan club. The MCA is a community where you can connect with other fans, access exclusive content, tour pre-sales, contests, interact with band members, pick up a killer merch pack, and much more. Join the club today!</p>
+            <div class="contenedor-boton-allnews-ipad">
+              <div class="boton-readmore-mobile joinnow-desktop"><h5>JOIN NOW</div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section>
+      <article>
+        <!-- ipad -->
+        <div class="contenedor-latestnews-ipad">
+          <div class="contenedor-titulolatest-ipad">
+            <h2>LATEST NEWS</h2>
+            <div class="barra-marron-ipad"></div>
+          </div>
+          <div class="contenedor-cards-ipad">
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img src="./img/cards-index/primera-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad">
+                <h6>09.29.22</h6>
+                <h3>DAVE MUSTAINE INTERVIEWED BY VWMUSIC</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad">
+                <p>“Leave it to metal’s ultimate thrasher, Dave Mustaine, to savagely snatch victory from the seethingly venomous jaws of defeat.
+
+                  Some thought it improbable, others felt it impossible, and many all but counted him out. But after several harrowing years of uncertainty, Mustaine and his cohorts have unleashed<a class="enlace-sick" href="./pages/thesick.html"> The Sick, The Dying… And The Dead!.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img class="ultima-img-carrusel" src="./img/carrousel/ultima.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad rust-ipad">
+                <h6>09.24.22</h6>
+                <h3>‘RUST IN PEACE’ RELEASED 32 YEARS AGO TODAY!</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad parrafo-rust-ipad">
+                <p>On September 24, 1990, our 4th studio album Rust in Peace was released! The album is held in high regard in the metal community as one of the best thrash metal albums of all time. Listen to it here: <a class="enlace-sick" href="https://megadeth.lnk.to/rip">megadeth.lnk.to/rip</a></p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img src="./img/cards-index/segunda-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad dirk-ipad">
+                <h6>09.22.22</h6>
+                <h3>DIRK VERBEUREN INTERVIEWED BY VWMUSIC</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad parrafo-dirk-ipad">
+                <p>Dirk’s latest interview with VWMusic about Megadeth’s new album, The Sick, The Dying… And The Dead!, the current tour, and more. Check it out here: <a class="enlace-sick" href="https://vwmusicrocks.com/an-interview-with-dirk-verbeuren-of-megadeth-2/?">Dirk’s latest interview.</p></a>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img class="showtoday" src="./img/cards-index/tercera-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad titulo-daveshow-ipad">
+                <h6>09.22.22</h6>
+                <h3>THE DAVE MUSTAINE SHOW TODAY!</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad parrafo-dave-ipad">
+                <p>Dave Mustaine is back and ready to chat! Catch TODAY’s new episode at 12pm PT / 3pm ET, anyone can listen for free! gimmemetal.com To join Dave in the LIVE CHAT, start your 30-day FREE trial Brigade membership! Tap on VAULT in the Gimme Metal app!. <a class="enlace-sick" href="gimmemetal.app.link/GimmeMetal_social">Gimme Metal Social.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img src="./img/cards-index/cuarta-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad titulo-davegibson-ipad">
+                <h6>09.21.22</h6>
+                <h3>DAVE MUSTAINE - GIBSON GUITARS</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad parrafo-davegibson-ipad">
+                <p>Dave Mustaine checking to make sure his guitar tech, Bryan Jones gets all the auction guitars set up properly. Said, this one sounded a bit boxy… <a class="enlace-sick" href="auction.megadeth.com">Auction Megadeth.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img src="./img/cards-index/quinta-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad titulo-mustaine-auction-ipad">
+                <h6>09.19.22</h6>
+                <h3>DAVE MUSTAINE STAGE-PLAYED GUITAR AUCTION</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad parrafo-mustaine-auction-ipad">
+                <p>Own a piece of guitar history! Each night on the current US tour, Dave Mustaine is signing and auctioning off a stage-played Silver Metallic or Antique Natural Flying V EXP guitar from his Gibson signature series.
+
+                  Bid now. All auctions will close on October 23, at midnight PDT.  <a class="enlace-sick" href="auction.megadeth.com"> Auction Megadeth.</a> </p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img src="./img/cards-index/sexta-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad">
+                <h6>09.16.22</h6>
+                <h3>DAVE MUSTAINE ON HIS RELATIONSHIP WITH GIBSON GUITARS</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad">
+                <p>Dave Mustaine joins <a class="enlace-sick" href="https://sprout.link/sweetwatersound">Sweetwater’s </a> Nick Bowcott to talk about Megadeth’s new record and Dave’s relationship with Gibson Guitars.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img src="./img/cards-index/septima-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad titulo-tst-ipad">
+                <h6>09.13.22</h6>
+                <h3>TSTDATD: HIGHEST CHARTING MEGADETH ALBUM</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad parrafo-mustaine-tst-ipad">
+                <p>THANK YOU ALL for making The Sick, The Dying… And The Dead! our highest charting album of all time!</p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-ipad">
+              <div class="imagen-card-ipad">
+                <img src="./img/cards-index/octava-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-ipad titulo-nft-ipad">
+                <h6>09.13.22</h6>
+                <h3>RATTLEHEADS NFT</h3>
+              </div>
+              <div class="contenedor-parrafo-card-ipad parrafo-nft-ipad">
+                <p>RATTLEHEADS... Here We Come. 💀 Follow <a class="enlace-sick" href="https://www.instagram.com/RattleheadsNFT/">@RattleheadsNFT</a>🔄 Retweet + Like ❤️🔔 Turn on notifications AND RATTLE YOUR GODDAMN HEAD.</p>
+              </div>
+              <div class="contenedor-readmore-card-ipad">
+                <div class="boton-readmore-ipad">READ MORE</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-boton-allnews-ipad">
+          <div class="boton-readmore-ipad"><h5>ALL NEWS</h5></div>
+        </div>
+        <div class="contenedor-killingroad-ipad">
+          <div class="contenedor-titulo-killing-ipad">
+            <h2>KILLING ROAD</h2>
+            <div class="barra-marron-ipad"></div>
+          </div>
+          <div class="contenido-killing-ipad">
+            <div class="card-killing-ipad">
+              <div class="contenedor-fecha">
+                <h6>10/04/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>
+                  US Tour w/ 5FDP
+                  Cuyahoga Falls, Ohio
+                </h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Blossom Music Center</h4>
+                <div class="contenedor-readmore-card-mobile">
+                  <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-killing-ipad">
+              <div class="contenedor-fecha">
+                <h6>10/04/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>
+                  US Tour w/ 5FDP
+                  Cuyahoga Falls, Ohio
+                </h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Blossom Music Center</h4>
+                <div class="contenedor-readmore-card-mobile">
+                  <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-killing-ipad">
+              <div class="contenedor-fecha">
+                <h6>10/04/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>
+                  US Tour w/ 5FDP
+                  Cuyahoga Falls, Ohio
+                </h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Blossom Music Center</h4>
+                <div class="contenedor-readmore-card-mobile">
+                  <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-killing-ipad">
+              <div class="contenedor-fecha">
+                <h6>10/04/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>
+                  US Tour w/ 5FDP
+                  Cuyahoga Falls, Ohio
+                </h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Blossom Music Center</h4>
+                <div class="contenedor-readmore-card-mobile">
+                  <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                </div>
+              </div>
+            </div>
+            <div class="card-killing-ipad">
+              <div class="contenedor-fecha">
+                <h6>10/04/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>
+                  US Tour w/ 5FDP
+                  Cuyahoga Falls, Ohio
+                </h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Blossom Music Center</h4>
+                <div class="contenedor-readmore-card-mobile">
+                  <div class="boton-readmore-mobile">TICKETS & VIP</div>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-alldates-ipad">
+              <div class="contenedor-readmore-card-mobile">
+                <div class="boton-readmore-mobile">ALL DATES</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor-joinarmy-ipad">
+          <h3>JOIN THE CYBER ARMY</h3>
+          <p>Welcome to the Megadeth Cyber Army, Megadeth's official fan club. The MCA is a community where you can connect with other fans, access exclusive content, tour pre-sales, contests, interact with band members, pick up a killer merch pack, and much more. Join the club today!</p>
+          <div class="contenedor-boton-allnews-ipad">
+            <a href="https://megadeth.com/cyberarmy/"><div class="boton-readmore-mobile joinnow-desktop"><h5>JOIN NOW</div></a>
+          </div>
+        </div>
+        <!-- Mobile -->
+        <div class="contenedor-latestnews-mobile">
+          <div class="contenedor-titulolatest-mobile">
+            <h2>LATEST NEWS</h2>
+            <div class="barra-marron-mobile"></div>
+          </div>
+          <div class="contenedor-cards-mobile">
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/primera-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.29.22</h6>
+                <h3>DAVE MUSTAINE INTERVIEWED BY VWMUSIC</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>“Leave it to metal’s ultimate thrasher, Dave Mustaine, to savagely snatch victory from the seethingly venomous jaws of defeat.
+
+                  Some thought it improbable, others felt it impossible, and many all but counted him out. But after several harrowing years of uncertainty, Mustaine and his cohorts have unleashed<a class="enlace-sick" href="./pages/thesick.html"> The Sick, The Dying… And The Dead!</a>, a whirlwind tour de force now screaming up the charts, decimating any brave soul who dares to stand in its way.”
+                  
+                  Read the interview here: <a class="enlace-sick" href="vwmusicrocks.com/an-interview-with-dave-mustaine-of-megadeth/">Dave’s latest interview.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/dave-mustaine-interviewed-by-vwmusic/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/carrousel/ultima.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.24.22</h6>
+                <h3>‘RUST IN PEACE’ RELEASED 32 YEARS AGO TODAY!</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>On September 24, 1990, our 4th studio album Rust in Peace was released! The album is held in high regard in the metal community as one of the best thrash metal albums of all time. Listen to it here: <a class="enlace-sick" href="https://megadeth.lnk.to/rip">megadeth.lnk.to/rip</a></p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/rust-in-peace-released-32-years-ago-today/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/segunda-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.22.22</h6>
+                <h3>DIRK VERBEUREN INTERVIEWED BY VWMUSIC</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>Dirk’s latest interview with VWMusic about Megadeth’s new album, The Sick, The Dying… And The Dead!, the current tour, and more. Check it out here: <a class="enlace-sick" href="https://vwmusicrocks.com/an-interview-with-dirk-verbeuren-of-megadeth-2/?">Dirk’s latest interview.</p></a>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/dirk-verbeuren-interviewed-by-vwmusic-2/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/tercera-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.22.22</h6>
+                <h3>THE DAVE MUSTAINE SHOW TODAY!</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>Dave Mustaine is back and ready to chat! Catch TODAY’s new episode at 12pm PT / 3pm ET, anyone can listen for free! gimmemetal.com To join Dave in the LIVE CHAT, start your 30-day FREE trial Brigade membership! Tap on VAULT in the Gimme Metal app!. <a class="enlace-sick" href="gimmemetal.app.link/GimmeMetal_social">Gimme Metal Social.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/the-dave-mustaine-show-today-5/"><div class="boton-readmore-mobile">READ MORE</div>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/cuarta-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.21.22</h6>
+                <h3>DAVE MUSTAINE - GIBSON GUITARS</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>Dave Mustaine checking to make sure his guitar tech, Bryan Jones gets all the auction guitars set up properly. Said, this one sounded a bit boxy… <a class="enlace-sick" href="auction.megadeth.com">Auction Megadeth.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/dave-mustaine-gibson-guitars/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/quinta-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.19.22</h6>
+                <h3>DAVE MUSTAINE STAGE-PLAYED GUITAR AUCTION</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>Own a piece of guitar history! Each night on the current US tour, Dave Mustaine is signing and auctioning off a stage-played Silver Metallic or Antique Natural Flying V EXP guitar from his Gibson signature series.
+
+                  Bid now. All auctions will close on October 23, at midnight PDT.  <a class="enlace-sick" href="auction.megadeth.com"> Auction Megadeth.</a> </p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/dave-mustaine-stage-played-guitar-auction-2/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/sexta-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.16.22</h6>
+                <h3>DAVE MUSTAINE ON HIS RELATIONSHIP WITH GIBSON GUITARS</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>Dave Mustaine joins <a class="enlace-sick" href="https://sprout.link/sweetwatersound">Sweetwater’s </a> Nick Bowcott to talk about Megadeth’s new record and Dave’s relationship with Gibson Guitars. Dave covers a long and varied history of Mustaine signature models that’s now culminated in Dave’s appointment as a Gibson Brand Ambassador and his signature Gibson Flying V. This Flying V features a neck modified for speed and metal, and the guitar leaps seamlessly from lead to rhythm playing without missing a beat, just like Dave! Nick and Dave also cover songwriting, bandmates, and Dave’s brutal new Gibson signature acoustic guitar, a rare 24-fret behemoth acoustic. Check it out!. <a class="enlace-sick" href="https://www.youtube.com/watch?v=M5OesNDA-rQ"> Dave Mustaine on His Relationship with Gibson Guitars.</a></p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/dave-mustaine-on-his-relationship-with-gibson-guitars/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/septima-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.13.22</h6>
+                <h3>TSTDATD: HIGHEST CHARTING MEGADETH ALBUM</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>THANK YOU ALL for making The Sick, The Dying… And The Dead! our highest charting album of all time!</p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/tstdatd-highest-charting-megadeth-album/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+            <div class="card-mobile">
+              <div class="imagen-card-mobile">
+                <img src="./img/cards-index/octava-card.jpg">
+              </div>
+              <div class="contenedor-titulo-card-mobile">
+                <h6>09.13.22</h6>
+                <h3>RATTLEHEADS NFT</h3>
+              </div>
+              <div class="contenedor-parrafo-card-mobile">
+                <p>RATTLEHEADS... Here We Come. 💀 Follow <a class="enlace-sick" href="https://www.instagram.com/RattleheadsNFT/">@RattleheadsNFT</a>🔄 Retweet + Like ❤️🔔 Turn on notifications AND RATTLE YOUR GODDAMN HEAD.</p>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://megadeth.com/news/2022/rattleheads-nft/"><div class="boton-readmore-mobile">READ MORE</div></a>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-boton-allnews-mobile">
+            <a href="https://megadeth.com/?redirect=false"><div class="boton-readmore-mobile">ALL NEWS</div></a>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section>
+      <article>
+          <div class="contenedor-killingroad-mobile">
+            <div class="titulo-killingroad-mobile">
+              <h2>KILLING ROAD</h2>
+              <div class="barra-marron-mobile"></div>
+            </div>
+          </div>
+          <div class="contenido-killing-mobile">
+            <div class="card-killing">
+              <div class="contenedor-fecha">
+                <h6>10/01/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>US Tour w/ 5FDP Rogers, AR
+                  Walmart AMP
+                </h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Walmart AMP</h4>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://buy.amptickets.com/24126"><div class="boton-readmore-mobile">TICKETS & VIP</div></a>
+              </div>
+            </div>
+            <div class="card-killing">
+              <div class="contenedor-fecha">
+                <h6>10/04/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>
+                  US Tour w/ 5FDP Alpharetta, GA
+                </h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Ameris Bank Amphitheatre</h4>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://concerts.livenation.com/event/0E005C88A5104759?f_use_ras_unavailability=true&f_ras_manifest_attributes=true&f_tmol_prefix=true"><div class="boton-readmore-mobile">TICKETS & VIP</div>
+                </a>
+              </div>
+            </div>
+            <div class="card-killing">
+              <div class="contenedor-fecha">
+                <h6>10/05/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>US Tour w/ 5FDP
+                  Detroit, MI</h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>Pine Knob Music Theatre</h4>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://www.ticketmaster.com/event/08005C87CEC31FEF"><div class="boton-readmore-mobile">TICKETS & VIP</div></a>
+              </div>
+            </div>
+            <div class="card-killing">
+              <div class="contenedor-fecha">
+                <h6>10/07/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>US Tour w/ 5FDP
+                  Milwaukee, WI</h3>
+              </div>
+              <div class="contenedor-subtitulo">
+                <h4>American Family Insurance Amphitheater</h4>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://www.ticketmaster.com/event/07005C87D4C54C11"><div class="boton-readmore-mobile">TICKETS & VIP</div></a>
+              </div>
+            </div>
+            <div class="card-killing">
+              <div class="contenedor-fecha">
+                <h6>10/08/2022</h6>
+              </div>
+              <div class="contenedor-titulo">
+                <h3>US Tour w/ 5FDP
+                  Maryland Heights, MO</h3>
+              </div>
+              <div class="contenedor-subtitulo">
+              <h4>Hollywood Casino Amphitheatre - St. Louis</h4>
+              </div>
+              <div class="contenedor-readmore-card-mobile">
+                <a href="https://concerts.livenation.com/event/06005C87893E1AF1?f_use_ras_unavailability=true&f_ras_manifest_attributes=true&f_tmol_prefix=true"><div class="boton-readmore-mobile">TICKETS & VIP</div></a>
+              </div>
+            </div>
+            <div class="contenedor-boton-allnews-mobile">
+              <a href="https://megadeth.com/tour/"><div class="boton-readmore-mobile">ALL DATES</div></a>
+            </div>
+          </div>
+      </article>
+    </section>
+    <section>
+      <div class="contenedor-cyberarmy-index-mobile">
+        <h3>JOIN THE CYBER ARMY</h3>
+        <p>Welcome to the Megadeth Cyber Army, Megadeth's official fan club. The MCA is a community where you can connect with other fans, access exclusive content, tour pre-sales, contests, interact with band members, pick up a killer merch pack, and much more. Join the club today!</p>
+        <div class="contenedor-boton-allnews">
+          <a href="https://megadeth.com/cyberarmy/"><div class="boton-readmore-mobile joinnow-desktop"><h5>JOIN NOW</div></a>
+        </div>
+      </div>
+    </section>
+</main>
+<footer>
+    <div class="contenedor-footer">
+      <div class="contenedor-ultimologo">
+        <div class="logo-final">
+          <img src="./img/logo.png">
+        </div>
+      </div>
+      <div class="contenedor-iconos-footer">
+        <div class="alineador-iconos-footer">
+          <a href="https://twitter.com/Megadeth"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://es-la.facebook.com/Megadeth/"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/megadeth/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCLVz1B001PIbq9LliJenV2w"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://open.spotify.com/artist/1Yox196W7bzVNZI7RBaPnf"><i class="fa-brands fa-spotify"></i></a>
+          <a href="https://music.apple.com/mx/artist/megadeth/488289"><i class="fa-brands fa-apple"></i></a>
+          <a href="https://www.tiktok.com/@megadeth"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="https://discord.com/invite/Megadeth"><i class="fa-brands fa-discord"></i></a>
+        </div>
+      </div>
+      <div class="contenedor-integrantes">
+        <div class="dave-img">
+          <img src="./img/footer/footer-mustaine.jpg">
+        </div>
+        <div class="dave-img">
+          <img src="./img/footer/footer-kiko.jpg">
+        </div>
+        <div class="dave-img">
+          <img src="./img/footer/footer-dirk.jpg">
+        </div>
+        <div class="dave-img">
+          <img src="./img/footer/footer-james2.jpg">
+        </div>
+      </div>
+      <div class="contenedor-final-footer">
+        <a href="https://megadeth.com/contact/"><h5>CONTACT</h5></a>
+        <a href="https://megadeth.com/terms-of-service/"><h5>TERMS OF SERVICE</h5></a>
+        <a href="https://megadeth.com/privacy-policy/"><h5>PRIVACY POLICY</h5></a>
+        <a href="https://megadeth.com/contact/"><h5>CUSTOMER SUPPORT</h5></a>
+      </div>
+    </div>
+</footer>
+<script src="./js/login.js"></script>
+</body>
+</html>

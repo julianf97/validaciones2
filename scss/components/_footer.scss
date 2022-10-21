@@ -1,0 +1,227 @@
+
+@media only screen and (min-width:1026px){
+    footer{background-color: #0f0f0f;}
+    .contenedor-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: -51px;
+        .contenedor-ultimologo{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            .logo-final{
+                width: 150px;
+                height: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .contenedor-iconos-footer{
+            width: 100%;
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .alineador-iconos-footer{ 
+                width: 20%;
+                margin-top: -25px;
+                display: flex;
+                justify-content: space-between;
+                i{
+                    font-size: 1rem;
+                    color: #ededed;
+                }
+            }
+             
+
+        }
+        .contenedor-integrantes{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            .dave-img{
+                width: 30%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                }
+            }
+        }
+        .contenedor-final-footer{
+            width: 100%;
+            height: auto;
+            background-color: #BA9353;
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            align-items: center;
+            h5{
+                color: #ededed;
+                font-size: 0.6rem;
+                font-weight: 750;
+            }
+        }
+    }
+
+}
+@media only screen and (min-width:601px) and (max-width:1025px){
+    //Ipad
+    footer{background-color: #0f0f0f;}
+    .contenedor-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        .contenedor-ultimologo{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            .logo-final{
+                width: 150px;
+                height: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .contenedor-iconos-footer{
+            width: 100%;
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .alineador-iconos-footer{ 
+                width: 30%;
+                display: flex;
+                justify-content: space-between;
+                i{
+                    font-size: 1rem;
+                    color: #ededed;
+                }
+            }
+             
+
+        }
+        .contenedor-integrantes{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            .dave-img{
+                width: 30%;
+                height: 100% ;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                }
+            }
+        }
+        .contenedor-final-footer{
+            width: 100%;
+            height: auto;
+            background-color: #BA9353;
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            align-items: center;
+            h5{
+                color: #ededed;
+                font-size: 0.6rem;
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:600px){ 
+    //MOBILE
+footer{background-color: #0f0f0f;}
+    .contenedor-footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        .contenedor-ultimologo{
+            width: 100%;
+            height: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            .logo-final{
+                width: 150px;
+                height: 50px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+        .contenedor-iconos-footer{
+            width: 100%;
+            height: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .alineador-iconos-footer{ 
+                width: 60%;
+                display: flex;
+                justify-content: space-between;
+                i{
+                    font-size: 1rem;
+                    color: #ededed;
+                }
+            }
+             
+
+        }
+        .contenedor-integrantes{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            .dave-img{
+                width: 30%;
+                height: 100% ;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: center;
+                }
+            }
+        }
+        .contenedor-final-footer{
+            width: 100%;
+            height: auto;
+            background-color: #BA9353;
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            align-items: center;
+            h5{
+                color: #ededed;
+                font-size: 0.6rem;
+                font-weight: 800;
+            }
+        }
+    }
+}
